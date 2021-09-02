@@ -121,7 +121,8 @@ App = {
         });
       }).then(function(result) {
         console.log("Tokens bought...")
-        $('form').trigger('reset') // reset number of tokens in form
+        $('form').trigger('reset')
+        window.location.reload() // reset number of tokens in form
         // Wait for Sell event
         // check for discord webhook
       });
