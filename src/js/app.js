@@ -123,6 +123,7 @@ App = {
         console.log("Tokens bought...")
         $('form').trigger('reset') // reset number of tokens in form
         // Wait for Sell event
+        // check for discord webhook
       });
     }
   }
