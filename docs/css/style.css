@@ -1,0 +1,370 @@
+/* Navigation */
+img.logo{
+    width: 154px;
+  }
+  a.nav-link,.active{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .button{
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 30px;
+    padding: 2px 45px;
+    color: #0AFFC5;
+  }
+  
+  .navbar{
+    background-image: linear-gradient(to bottom left, #00FE8B, #00FEAA,#00FFBC);
+  }
+  
+  .nav-link{
+    color: #fff;
+  }
+  a{
+    color: #000;
+  }
+  .info{
+    width: 100%;
+    background-image: linear-gradient(to bottom left, #00FE8B, #00FEAA,#00FFBC);
+  }
+  
+  .test {
+    width:70%;
+    display:inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+  }
+  
+  .butn{
+    margin-right: 20px;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 2px 15px;
+    background: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  .butn:hover{
+    color:#00FEB7;
+    background-color: #fff;
+  }
+  
+  .clas{
+    box-shadow: 5px 5px 5px gray;
+  }
+  
+  p
+  {
+    color:#707070;
+  }
+  
+  .donation-card{
+    flex-direction: row;
+  }
+  
+  .donation-card img{
+    width: 30%;
+  }
+  input{
+    border: 2px solid #1FFFCA;
+      border-radius: 15px;
+      padding-left: 5%;
+      margin: 0% 15%;
+  }
+  input:focus{
+    outline: unset; 
+  }
+  
+  textarea:focus{outline: unset;}
+  textarea{
+    border: 2px solid #1FFFCA;
+      border-radius: 15px;
+      padding-left: 5%;
+      margin: 0% 15%;
+      resize: unset;
+  }
+  ::placeholder{
+    color: #0AFFC5;
+  }
+  
+  .subscribe{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 0px !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+  }
+  
+  .flex{
+    margin-top: 8px;
+    border: 2px solid #1FFFCA;
+    border-radius: 15px;
+    background: #1FFFCA;
+    color:#fff; 
+  }
+  
+  .calendarIcon{
+    background-image: url("./wave.svg");
+    background-repeat: no-repeat;
+  }
+  .calendarIcon1{
+    background-image: url("./wave1.svg");
+    background-repeat: no-repeat;
+  }
+  
+  .parallelogram{
+      width: 60px;
+      height: 50px;
+      transform: skew(-25deg);
+      background: #fff;
+    margin-right: 10px;
+  }
+  .parallelogram1{
+      transform: skew(-25deg);
+      background: #fff;
+    margin-right: 10px;
+  }
+  .parallelogram2{
+      transform: skew(-25deg);
+      background: #fff;
+    margin-right: 10px;
+  }
+  .parallelogram3{
+      transform: skew(-25deg);
+      background: #fff;
+    margin-right: 10px;
+    width: 10px;
+    height: 88px; 
+  }
+  .unskew{
+    transform: skew(25deg);
+  }
+  
+  .unskew-nav{
+    transform: skew(25deg);
+    margin-right: 50px;
+  }
+  
+  .items-center{
+    display: flex;
+    justify-content: center;
+  }
+  
+  button.flex.p-1{
+    width:130px;
+  }
+  .contact-card{
+    width: 70%;
+  }
+  
+  .footer-container{
+    margin-right: 20%;
+    margin-left: -15px;
+  }
+  
+  .footer-heading{
+    padding: 10px 40px 0px;
+  }
+  .footer-social-container{
+    display: flex;
+  }
+  
+  .footer-social{
+    display: flex;
+  }
+  
+  .footer-facebook{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 14px;
+    color: blue;
+  }
+  
+  .footer-common{
+    font-size: 25px;
+    padding-left: 17px;
+    padding-top: 14px;
+  }
+  
+  .float{
+    margin-top: -25px;
+      position: absolute;
+      width: 55px;
+      height: 60px;
+      background-color: #fff;
+      color: #FFF;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 2px 2px 3px #999;
+  }
+  
+  .my-float{
+      margin-top:22px;
+  }
+  
+  .twitter-margin{
+    margin-left: 5%;
+  }
+  .instagram-margin{
+    margin-left: 10%;
+  }
+  .discord-margin{
+    margin-left: 15%;
+  }
+  .reddit-margin{
+    margin-left: 20%;
+  }
+  .telegram-margin{
+    margin-left: 25%;
+  }
+  
+  .mtb{
+    margin-bottom: 45px;
+  }
+  
+  @keyframes example {
+    /* 0%{
+      transform: scale(1,1);
+    }
+   
+    50%{
+      transform: scale(1.2,1.2);
+    }
+  
+    100%{
+      transform: scale(1,1);
+    } */
+  
+    0%{
+      padding-top: 0px;
+    }
+   
+    50%{
+      padding-top: -25px;
+    }
+  
+    100%{
+      padding-top: 25px;
+    }
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(0px, 0px) }
+    50% { transform: translate(0px, -25px) }
+     100% { transform: translate(0px, 0px) }
+  
+  
+  }
+  
+  img.w-100.info-img{
+    animation: shake 3s infinite;
+  }
+  
+  img.contact{
+    height: 300px;
+    width: 100%;
+  } 
+  
+  /* Mobile View */
+  @media(max-width: 991px){
+    .parallelogram2{
+      margin:0px;
+    }
+    .parallelogram3{
+      margin:0px;
+    }
+    .unskew-nav{
+      margin-right: 0px;
+    }
+    .info{
+      height: auto;
+    }
+    .mt-top{
+      margin-top: 10px;
+      padding: 0px;
+    }
+    .mtb{
+      margin-top: 10px;
+      margin-bottom: 35px;
+    }
+    button.flex.p-1{
+      width:100px;
+    }
+    .contact-card{
+      width: 85%;
+    }
+    .footer-heading{
+      padding: 10px 7px 0px 10px;
+    }
+    .footer-container{
+      margin-right: 12%;
+      margin-left: 6%;
+    }
+  
+    .footer-social{
+      display: flex;
+      margin-top: -13px;
+      width: 96%;
+    }
+    .footer-social-container{
+      display: block;
+    }
+    .footer-facebook{
+      font-size: 25px;
+      padding-left: 15px;
+      padding-top: 14px;
+      color: blue;
+    }
+    .footer-common{
+      font-size: 25px;
+      padding-left: 11px;
+      padding-top: 14px;
+    }
+    .facebook-margin{
+      margin-left: 4px;
+    }
+    .twitter-margin{
+      margin-left: 62px;
+    }
+    .instagram-margin{
+      margin-left: 119px;
+    }
+    .discord-margin{
+      margin-left: 180px;
+    }
+    .reddit-margin{
+      margin-left: 238px;
+    }
+    .telegram-margin{
+      margin-left: 296px;
+    }
+  
+    img.contact{
+      margin-bottom: 20px;
+      height: 200px;
+      width: 100%;
+    } 
+  
+    img.logo{
+      width: 163px;
+    }
+    a.navbar-brand{
+      font-size: 32px !important;
+    }
+  
+    .parallelogram3{
+      height: 93px;
+    }
+  }
+  /* input::placeholder { 
+    color: #0AFFC5;
+  }
+  
+  input:-ms-input-placeholder {
+    color: #0AFFC5;
+  } */
+  
